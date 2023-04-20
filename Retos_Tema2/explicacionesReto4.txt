@@ -1,0 +1,12 @@
+Punto 5
+Al mostrar por consola las 3 variables vemos que direccion y direccion2 contienen el nuevo campo
+"ciudad" que hemos añadido. Sin embargo al mostrar direccion3 no muestra este nuevo campo. Esto es
+debido al uso del operador spreads. La variable direccion2 al igualarla a la variable direccion,
+siempre va a ser igual a esta, incluyendo todas las modificaciones que pueda sufrir. En cambio,
+direccion3, al utilizar el spread operator, es una copia de la variable direccion antes de que esta
+fuese modificada, y por ello no muestra el nuevo campo "ciudad".
+
+Punto 8
+Vemos que para el caso de los arrays ocurre lo mismo que en el caso de los objetos literales del 
+punto 5. Utilizando el operador spreads se realiza una copia de la variable en un determinado momento,
+y si esa variable es modificada posteriormente a la copia, esta no refleja dichas modificaciones.
