@@ -1,0 +1,11 @@
+{
+  "name": "retosrepaso",
+  "version": "1.0.0",
+  "description": "Retos de repaso Temas 1 al 5 modulo 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristina Taboada Mayo",
+  "license": "ISC"
+}
